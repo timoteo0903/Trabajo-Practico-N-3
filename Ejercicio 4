@@ -1,0 +1,39 @@
+"""4. Una marca de ropa tienen descuentos diferentes dependiendo de la sede del local:
+Item       Rosario Funes Roldán
+Zapatillas 30 %    40 %  25 %
+Remeras    20 %    30 %  15 %
+Pantalones 10 %    5 %   20 %
+Dado un item y la sede del local, devolver el descuento que se recibirá."""
+
+item = str(
+    input("Que item desea saber el descuento; Zapatillas, Remeras o Pantalones: ")
+)
+sede = str(input("Que sede: Rosario, Funes , Roldan: "))
+
+if sede == "Rosario" and item == "Zapatillas":
+    descuento = str("30 %")
+    print("El descuento que recibira sera " + descuento)
+elif sede == "Rosario" and item == "Remeras":
+    descuento = str("20 %")
+    print("El descuento que recibira sera " + descuento)
+elif sede == "Rosario" and item == "Pantalones":
+    descuento = str("10 %")
+    print("El descuento que recibira sera " + descuento)
+if sede == "Funes" and item == "Zapatillas":
+    descuento = str("40 %")
+    print("El descuento que recibira sera " + descuento)
+elif sede == "Funes" and item == "Remeras":
+    descuento = str("30 %")
+    print("El descuento que recibira sera " + descuento)
+elif sede == "Funes" and item == "Pantalones":
+    descuento = str("5 %")
+    print("El descuento que recibira sera " + descuento)
+if sede == "Roldan" and item == "Zapatillas":
+    descuento = str("25 %")
+    print("El descuento que recibira sera " + descuento)
+elif sede == "Roldan" and item == "Remeras":
+    descuento = str("15 %")
+    print("El descuento que recibira sera " + descuento)
+elif sede == "Roldan" and item == "Pantalones":
+    descuento = str("20 %")
+    print("El descuento que recibira sera " + descuento)
