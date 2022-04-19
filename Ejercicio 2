@@ -1,0 +1,14 @@
+# 2. Dados 3 lados de un triángulo, informar si el mismo es equilátero, isósceles o escaleno.
+
+a = 60
+b = 60
+c = 60
+if a + b + c == 180: 
+    if a == b == c:
+        print("el triangulo es equilatero")
+    elif (a == b and b != c) or (a == c and b != c) or (b == c and c != a):
+        print("El triangulo es isosceles")
+    else:
+        print("El triangulo es escaleno")
+else: 
+    print("Hay un error en los lados ingresados, la suma de los mismos debe dar 180")
