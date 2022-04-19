@@ -1,0 +1,9 @@
+# 1. Dada una contraseña verificar que su longitud es superior a 8 caracteres.
+
+contraseña = str(input("Ingrese una contraseña: "))
+
+
+if len(contraseña) > 8:
+    print("La contraseña posee mas de 8 caracteres")
+else:
+    print("La contaseña no posee mas de 8 caracteres")
