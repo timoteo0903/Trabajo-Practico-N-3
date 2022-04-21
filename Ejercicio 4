@@ -12,6 +12,8 @@ sede = str(input("Que sede: Rosario, Funes , Roldan: "))
 
 if sede == "Rosario" and item == "Zapatillas":
     descuento = str("30 %")
+    """Aqui quizas es innecesario declarar la variable descuento ya que el mismo viene dado en el enunciado, pero si el descuento 
+    se deberia calcular, o saldria de alguna formula, una buena practica a mi entender es declararlo como variable y añidarlo en el print"""
     print("El descuento que recibira sera " + descuento)
 elif sede == "Rosario" and item == "Remeras":
     descuento = str("20 %")
