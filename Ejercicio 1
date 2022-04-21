@@ -4,6 +4,8 @@ contraseña = str(input("Ingrese una contraseña: "))
 
 
 if len(contraseña) > 8:
+    #La funcion len() me determina la cantidad de caracteres que posee una variable de caracter string 
     print("La contraseña posee mas de 8 caracteres")
 else:
     print("La contaseña no posee mas de 8 caracteres")
+
