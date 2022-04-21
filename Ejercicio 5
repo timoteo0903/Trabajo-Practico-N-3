@@ -1,0 +1,102 @@
+"""Ahora, supongamos que además dependiendo del día de la semana se puede recibir un descuento
+adicional acumulable. Es decir, si se recibió un descuento del 10% según el ítem y la sede y la compra
+se realiza un lunes, el descuento total será un 20 % . Escribir un programa en el que la persona pueda
+ingresar el día de la semana, el item a comprar y la sede del local. Luego, informar el descuento total
+a recibir. Utilizar la siguiente tabla de descuentos
+          Lunes  Miércoles Jueves
+Descuento 10 %   8 %        5 %
+"""
+
+item = str(input("Que item desea saber el descuento; Zapatillas, Remeras o Pantalones: "))
+sede = str(input("Que sede: Rosario, Funes , Roldan: "))
+dia = str(input("Ingrese el dia que va a ir a comprar: "))
+if dia == "lunes":
+    if sede == "Rosario" and item == "Zapatillas":
+        descuento = str("40 %")
+        """Aqui quizas es innecesario declarar la variable descuento ya que el mismo viene dado en el enunciado, pero si el descuento 
+        se deberia calcular, o saldria de alguna formula, una buena practica a mi entender es declararlo como variable y añidarlo en el print"""
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Rosario" and item == "Remeras":
+        descuento = str("30 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Rosario" and item == "Pantalones":
+        descuento = str("20 %")
+        print("El descuento que recibira sera " + descuento)
+    if sede == "Funes" and item == "Zapatillas":
+        descuento = str("50 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Funes" and item == "Remeras":
+        descuento = str("40 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Funes" and item == "Pantalones":
+        descuento = str("15 %")
+        print("El descuento que recibira sera " + descuento)
+    if sede == "Roldan" and item == "Zapatillas":
+        descuento = str("35 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Roldan" and item == "Remeras":
+        descuento = str("25 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Roldan" and item == "Pantalones":
+        descuento = str("30 %")
+        print("El descuento que recibira sera " + descuento)
+elif dia == "miercoles":
+    if sede == "Rosario" and item == "Zapatillas":
+        descuento = str("38 %")
+        """Aqui quizas es innecesario declarar la variable descuento ya que el mismo viene dado en el enunciado, pero si el descuento 
+        se deberia calcular, o saldria de alguna formula, una buena practica a mi entender es declararlo como variable y añidarlo en el print"""
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Rosario" and item == "Remeras":
+        descuento = str("28 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Rosario" and item == "Pantalones":
+        descuento = str("18 %")
+        print("El descuento que recibira sera " + descuento)
+    if sede == "Funes" and item == "Zapatillas":
+        descuento = str("48 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Funes" and item == "Remeras":
+        descuento = str("38 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Funes" and item == "Pantalones":
+        descuento = str("13 %")
+        print("El descuento que recibira sera " + descuento)
+    if sede == "Roldan" and item == "Zapatillas":
+        descuento = str("33 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Roldan" and item == "Remeras":
+        descuento = str("23 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Roldan" and item == "Pantalones":
+        descuento = str("28 %")
+        print("El descuento que recibira sera " + descuento)
+elif dia == "viernes":
+    if sede == "Rosario" and item == "Zapatillas":
+        descuento = str("35 %")
+        """Aqui quizas es innecesario declarar la variable descuento ya que el mismo viene dado en el enunciado, pero si el descuento 
+        se deberia calcular, o saldria de alguna formula, una buena practica a mi entender es declararlo como variable y añidarlo en el print"""
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Rosario" and item == "Remeras":
+        descuento = str("25 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Rosario" and item == "Pantalones":
+        descuento = str("15 %")
+        print("El descuento que recibira sera " + descuento)
+    if sede == "Funes" and item == "Zapatillas":
+        descuento = str("45 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Funes" and item == "Remeras":
+        descuento = str("35 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Funes" and item == "Pantalones":
+        descuento = str("10 %")
+        print("El descuento que recibira sera " + descuento)
+    if sede == "Roldan" and item == "Zapatillas":
+        descuento = str("30 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Roldan" and item == "Remeras":
+        descuento = str("20 %")
+        print("El descuento que recibira sera " + descuento)
+    elif sede == "Roldan" and item == "Pantalones":
+        descuento = str("25 %")
+        print("El descuento que recibira sera " + descuento)
