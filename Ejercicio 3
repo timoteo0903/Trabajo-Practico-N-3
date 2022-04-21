@@ -10,11 +10,14 @@ Escribir un programa que dada la zona, A, B o C, y la cantidad de horas que el v
 estacionado, devuelva el costo a pagar. En caso de que el tiempo de estacionamiento supere las 3 horas,
 imprimir un mensaje de error acorde."""
 
-zona = str(input("Que zona esta: A, B o C: "))
+zona = str(input("Que zona esta: ")).upper() 
+#En este caso la funcion upper() me transformara el caracter en mayuscula, la utilizo para que no falle no falle o para no tener que pedirle al usuario que ingrese si o si mayuscula 
 hora = int(input("Cuantas horas estuvo estacionado el vehiculo: "))
 
 if zona == "A" and (hora > 0 and hora <= 1):
     cuenta = str(hora * 57.00)
+    """Aqui defino una variable cuenta porque que lo que hago es calcular cuanto le sale el estacionamiento ya que puede estar menos de una hora o una hora y media. 
+    Tambien la variable cuenta es de caracter string por que si no no puedo añidarla a una cadena en el print (con lo que hemos dado hasta ahora)"""
     print("Debe pagar " + cuenta)
 elif zona == "B" and (hora > 0 and hora <= 1):
     cuenta = str(hora * 47.00)
